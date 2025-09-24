@@ -85,10 +85,10 @@ O sistema tem como objetivo simular a gestão de projetos, permitindo o **cadast
 
 - Basta rodar qualquer uma dessas classes para abrir a janela Swing correspondente.
 
-  5. **Geração de arquivos CSV**
-  - Sempre que um novo registro é criado, o sistema grava os dados em arquivos `.csv`.
-  - Arquivos gerados:
-     - `usuarios.csv` → armazena os usuários cadastrados
-     - `equipes.csv` → armazena as equipes cadastradas
-     - `projetos.csv` → armazena os projetos cadastrados
-  - Esses arquivos podem ser abertos no Excel, LibreOffice ou até em um editor de texto comum.
+5. **Geração de arquivos CSV**
+- Sempre que um novo registro é criado, o sistema grava os dados em arquivos `.csv`.
+- Arquivos gerados:
+  - `usuarios.csv` → armazena os usuários cadastrados
+  - `equipes.csv` → armazena as equipes cadastradas
+  - `projetos.csv` → armazena os projetos cadastrados
+- Esses arquivos podem ser abertos no Excel, LibreOffice ou até em um editor de texto comum.
