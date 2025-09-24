@@ -62,19 +62,36 @@ O sistema tem como objetivo simular a gestão de projetos, permitindo o **cadast
 
 ## ▶️ Como executar o projeto
 
-1. **Pré-requisitos**
+### Este sistema pode ser executado de duas formas:
+
+#### 1. Via arquivo `.jar`
+
+Após realizar o **Clean and Build** no NetBeans, um arquivo executável é gerado na pasta `dist/`.  
+- Para executar fora do NetBeans, basta dar **duplo clique no arquivo `.jar`** ou rodar no terminal:
+    
+  ```bash
+  java -jar SistemaGestaoProjetos.jar
+  
+- Atenção: É necessário ter o Java Runtime Environment (JRE) instalado na máquina.
+
+- Ao abrir o .jar, o sistema inicia pela tela de Cadastro de Usuário, seguindo para Cadastro de Projeto e depois Cadastro de Equipe. Ao final, todos os dados são salvos em arquivos .csv.
+
+#### 2. Via código-fonte (NetBeans ou outra IDE)
+
+2.1. **Pré-requisitos**
 - Ter o Java JDK 8+ instalado
 - Ter o NetBeans (ou outra IDE compatível) configurado
 
-2. **Clonar o repositório**
+2.2. **Clonar o repositório**
+
    ```bash
    git clone https://github.com/SEU-USUARIO/sist-gest-projetos-uam.git
-
-3. **Abrir no NetBeans**
+   ````
+2.3. **Abrir no NetBeans**
 - Vá em File > Open Project
 - Selecione a pasta do projeto
 
-4. **Executar as telas Swing**
+2.4. **Executar as telas Swing**
 - Dentro da pasta `src/view` estão as telas principais:
 
   - `TelaUsuario.java` → cadastro de usuários
@@ -85,7 +102,7 @@ O sistema tem como objetivo simular a gestão de projetos, permitindo o **cadast
 
 - Basta rodar qualquer uma dessas classes para abrir a janela Swing correspondente.
 
-5. **Geração de arquivos CSV**
+2.5. **Geração de arquivos CSV**
 - Sempre que um novo registro é criado, o sistema grava os dados em arquivos `.csv`.
 - Arquivos gerados:
   - `usuarios.csv` → armazena os usuários cadastrados
