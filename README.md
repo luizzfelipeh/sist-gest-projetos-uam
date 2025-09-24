@@ -60,7 +60,27 @@ O sistema tem como objetivo simular a gestão de projetos, permitindo o **cadast
 
 
 
-## ▶️ Como executar
-1. Clone este repositório:
+## ▶️ Como executar o projeto
+
+1. **Pré-requisitos**
+- Ter o Java JDK 8+ instalado
+- Ter o NetBeans (ou outra IDE compatível) configurado
+
+2. **Clonar o repositório**
    ```bash
-   git clone https://github.com/SEU-USUARIO/SistemaGestaoProjetos.git
+   git clone https://github.com/SEU-USUARIO/sist-gest-projetos-uam.git
+
+3. **Abrir no NetBeans**
+- Vá em File > Open Project
+- Selecione a pasta do projeto
+
+4. **Executar as telas Swing**
+- Dentro da pasta `src/view` estão as telas principais:
+
+  - `TelaUsuario.java` → cadastro de usuários
+
+  - `TelaEquipe.java` → cadastro de equipes
+
+  - `TelaProjeto.java` → cadastro de projetos
+
+- Basta rodar qualquer uma dessas classes para abrir a janela Swing correspondente.
